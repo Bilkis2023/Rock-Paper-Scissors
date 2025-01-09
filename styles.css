@@ -21,20 +21,28 @@ h1{
   background-color:hsl(239, 98%, 51%);
   cursor: pointer;
   transition: background-color 0.5s ease;
+  
 }
 .choices button:hover{
   background-color:hsl(239, 100%, 81%);
+  
 }
 
 #playerDisplay, #computerDisplay{
   font-size: 2.5rem;
+  
 }
 #resultDisplay{
-  font-size: 5rem;
+  font-size: 6rem;
+  padding: 50px;
 }
-.greenText{
- color: hsl(120, 92%, 30%); 
+.scoreDisplay{
+  font-size: 2rem;
+  
 }
-.redText{
-  color: hsl(0, 100%, 50%);
+.greenText, #playerScoreDisplay{
+ color: hsl(120, 51%, 51%); 
+}
+.redText, #computerScoreDisplay{
+  color: hsl(0, 94%, 51%);
 }
