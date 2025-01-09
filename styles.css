@@ -32,3 +32,9 @@ h1{
 #resultDisplay{
   font-size: 5rem;
 }
+.greenText{
+ color: hsl(120, 92%, 30%); 
+}
+.redText{
+  color: hsl(0, 100%, 50%);
+}
